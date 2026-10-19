@@ -72,15 +72,11 @@ godot --path . -- --demo
 > 工程内没有提交导出后的 exe：本机没有安装 Godot export templates。
 > 项目本身完整可运行，导出时在 Godot 的 Project → Export 里添加 Windows 预设即可。
 
-### GitHub 单文件包
+### 仓库说明
 
-对外分发使用根目录的 **`Resonant_GitHub.zip`**（约 94 MiB）：
-
-- 已包含完整源码、44 个音频、截图、两段视频、README/设计文档与测试；
-- 不包含 `.godot/` 导入缓存，首次用 Godot 打开会自动导入音频，属正常现象；
-- 单文件低于 GitHub 的 100 MiB 文件上限，可直接用 GitHub Desktop 或 `git push` 上传；
-- 如果通过 GitHub 网页拖拽上传，网页端对单个文件有 25 MiB 限制，请改用
-  GitHub Desktop / 命令行，或把 zip 作为 Release asset 上传。
+- 本仓库是源码仓库，不包含 `.godot/` 导入缓存；首次用 Godot 打开会自动导入音频；
+- 两段实机视频在 `docs/` 下，直接下载观看；
+- 如果要把项目打成单文件分发，可以在本地将整个目录打成 zip（视频较大，注意平台单文件限制）。
 
 ---
 
