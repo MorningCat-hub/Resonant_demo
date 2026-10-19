@@ -1,0 +1,9 @@
+# Godot import cache and local verification logs
+.godot/
+*.log
+_*.out
+_*.err
+_check.*
+_run.*
+_shot*
+_test.out
